@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="aiyu.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="gOA-0J-W1a">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="gOA-0J-W1a" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="2sY-lI-u5D"/>
+                <constraint firstAttribute="trailing" secondItem="gOA-0J-W1a" secondAttribute="trailing" id="3sb-VZ-VJk"/>
+                <constraint firstItem="gOA-0J-W1a" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="3vT-Ay-lC2"/>
+                <constraint firstItem="gOA-0J-W1a" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="5qO-ot-NA7"/>
+                <constraint firstItem="gOA-0J-W1a" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="6LI-GM-feE"/>
+                <constraint firstItem="gOA-0J-W1a" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="7qO-yd-DOV"/>
+                <constraint firstAttribute="trailing" secondItem="gOA-0J-W1a" secondAttribute="trailing" id="C53-EC-QkB"/>
+                <constraint firstAttribute="bottom" secondItem="gOA-0J-W1a" secondAttribute="bottom" id="FSn-4R-7o7"/>
+                <constraint firstAttribute="trailing" secondItem="gOA-0J-W1a" secondAttribute="trailing" id="GM2-Mu-8a6"/>
+                <constraint firstItem="gOA-0J-W1a" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="L3D-9G-05g"/>
+                <constraint firstAttribute="bottom" secondItem="gOA-0J-W1a" secondAttribute="bottom" id="Lbi-ui-HWW"/>
+                <constraint firstAttribute="bottom" secondItem="gOA-0J-W1a" secondAttribute="bottom" id="avc-bR-b9k"/>
+                <constraint firstAttribute="bottom" secondItem="gOA-0J-W1a" secondAttribute="bottom" id="pO5-3j-30Q"/>
+                <constraint firstItem="gOA-0J-W1a" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="q1O-QO-cgH"/>
+                <constraint firstItem="gOA-0J-W1a" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="qu1-KN-m0h"/>
+                <constraint firstAttribute="trailing" secondItem="gOA-0J-W1a" secondAttribute="trailing" id="yf8-mk-KzG"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="2sY-lI-u5D"/>
+                    <exclude reference="3sb-VZ-VJk"/>
+                    <exclude reference="5qO-ot-NA7"/>
+                    <exclude reference="6LI-GM-feE"/>
+                    <exclude reference="GM2-Mu-8a6"/>
+                    <exclude reference="L3D-9G-05g"/>
+                    <exclude reference="Lbi-ui-HWW"/>
+                    <exclude reference="avc-bR-b9k"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="aiyu.PNG" width="600" height="1122"/>
+    </resources>
+</document>
